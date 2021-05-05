@@ -87,9 +87,13 @@ footer {
    color:#810000;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    font-size:30px;
+<<<<<<< HEAD
    margin-top: 20px;
    margin-bottom: 40px;
    cursor: pointer;
+=======
+   margin-top: 50px;
+>>>>>>> 1fecb2616f40bec4ce1afbe307c8592810ccb38e
  }
 
  #para {
@@ -97,6 +101,7 @@ footer {
    font-weight:bold;
    font-size:20px;
 
+<<<<<<< HEAD
  }
 
  #click {
@@ -115,4 +120,6 @@ footer {
    color: white;
    border-radius: 10px;
    cursor: pointer;
+=======
+>>>>>>> 1fecb2616f40bec4ce1afbe307c8592810ccb38e
  }
