@@ -19,7 +19,7 @@ function pointerChange() {
 var allImage = ""
 function spawnHero() {
 
-  var champ = prompt("enter the champion name here , HINT: loba,wraith,valk")
+  var champ = prompt("enter the champion name here , HINT: loba,wraith,valk,octane,wattson")
   var count = prompt("enter how many times you would like the picture to be spawned")
   count= Number(count)
   if (champ==="loba") {
@@ -28,6 +28,10 @@ function spawnHero() {
     image= '<img id="imagg"; src="https://a-static.besthdwallpaper.com/wraith-apex-legends-l-b-fydyw-khalfia-2560x1600-68553_7.jpg">'
   }else if (champ==="valk"){
     image= '<img id="imagg"; src="https://cdn1.dotesports.com/wp-content/uploads/2021/04/22101807/Valk-Apex.png">'
+  }else if(champ==="octane"){
+    image= '<img id="imagg"; src="https://media.altchar.com/prod/images/940_530/gm-b99385a5-4b00-429e-87ba-6b4492aeeb84-apex-legends-octane-key-art-final.jpg">'
+  }else if (champ==="wattson"){
+    image= '<img id="imagg"; src="https://wallpapercave.com/wp/wp4720543.png"'
   }
   for (let i=0; i < count ; i++ ){
     console.log(i)
