@@ -31,7 +31,7 @@ function spawnHero() {
   }else if(champ==="octane"){
     image= '<img id="imagg"; src="https://media.altchar.com/prod/images/940_530/gm-b99385a5-4b00-429e-87ba-6b4492aeeb84-apex-legends-octane-key-art-final.jpg">'
   }else if (champ==="wattson"){
-    image= '<img id="imagg"; src="https://wallpapercave.com/wp/wp4720543.png"'
+    image= '<img id="imagg"; src="https://media.altchar.com/prod/images/940_530/gm-3c79cb0a-4589-4c8a-a973-5e8dc0b4c5de-apex-legends-wattson-key-art-final.jpg">'
   }
   for (let i=0; i < count ; i++ ){
     console.log(i)
