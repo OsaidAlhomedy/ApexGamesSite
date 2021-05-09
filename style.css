@@ -137,3 +137,10 @@ footer {
   border-radius: 10px;
   cursor: pointer;
 }
+
+#imaage {
+
+  width:auto;
+  border-radius: 20px ;
+  margin-bottom : 20px;
+}
